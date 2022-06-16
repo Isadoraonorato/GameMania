@@ -1,0 +1,337 @@
+/* Para tirar a borda padrão do navegador*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.search-box{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: rgb(163, 162, 162);
+    height: 40px;
+    border-radius: 40px;
+    padding: 10px;
+
+    }
+
+.search-txt{
+     border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: rgb(9, 73, 38);
+    font-size: 16px;
+    font-family:'Roboto', sans-serif;
+    line-height: 40px;
+    width: 240px;
+}
+
+.nav1{
+    
+    background: rgb(255, 255, 255);
+    height:100px;
+    margin: 20px;
+           
+}
+
+.nav1 img{
+    width: 150px;
+    padding:15px;
+    margin: 0;
+    
+}
+
+.menu-icon{
+    background: #ffffff;
+    float:right;
+    text-decoration:none;
+}
+
+
+.menu-icon a{
+    margin: 10px 20px 0px;
+    text-decoration: none;
+    color: #000000;
+    font-family:'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    justify-content: space-between;
+}
+
+.menu-icon span{
+    color: #0C14D4;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+
+.menu{
+    background-color: #0C14D4;   
+    text-align: center;
+    
+}
+
+.menu span{
+    color: #fff;
+}
+
+.menu a{
+    text-decoration: none;
+    position: relative;
+    padding: 10px;
+    display: inline;
+    display: inline-block;
+    color: #ffff;
+    font-size: 20px;
+    text-transform: uppercase; /*Maiúsculo*/
+    font-family:'Roboto', sans-serif;
+    margin: 10px 100px 10px;
+}
+
+.banner{
+    background-image: url(../img/Banner\ 1.png); /*.. voltar da pasta atual*/
+    height: 450px;
+    background-repeat: no-repeat; /*aparecer apenas uma imagem*/
+    background-size: cover; /*ajustar para o tamanho da pagina*/
+}
+
+.texto-banner {
+    width: 400px;
+    color: white;
+    text-decoration: center;
+    font-family:'M PLUS Rounded 1c', sans-serif;
+    font-size: 25px;
+}
+
+.texto-banner h1{
+    font-size: 65px;
+    font-weight: bold;
+    font-family:'M PLUS Rounded 1c', sans-serif;
+}
+
+.texto-banner h1{
+    background-color: #0C14D4;
+    padding: 3px 40px 3px;
+    color: white;
+    text-decoration: none;
+    justify-content: flex-end;
+        
+}
+
+.texto-banner p{
+    color: white;
+    padding: 3px 80px 3px;
+    text-decoration: none;
+    justify-content: flex-end;
+    border-style: dashed;
+    border-color: white;
+}
+
+.texto-banner a{
+    color: white;
+    text-decoration: none;
+    padding: 3px 20px 3px;
+    border-radius: 20px;
+    justify-content: flex-end;
+    border-style: solid;
+    border-color: white;
+}
+
+
+.texto-banner p{
+    margin-bottom: 30px;
+}
+
+
+
+.secao-destaques{
+    background-color: white;
+    padding: 30px 0px;
+    align-items: stretch;
+}
+
+.secao-destaques .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.bloco-destaques h2{
+    margin-top: 10px;
+    margin-bottom: 50px;
+    font-size: 25px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #0C14D4;
+    font-family:'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.bloco-destaques{
+    width: 70%;
+    height: 90%;
+    color: #000000;
+}
+
+.carddestaques{
+    width: 240px;
+    height: 500px;
+    margin-bottom: 35px;
+    background: var(--gradient);
+    box-shadow: 0px 0px 10px rgb(68, 68, 68), 0px 0px 30px rgb(173, 172, 172);
+
+}
+
+.carddestaques img{
+    width: 200px;
+    margin: 20px 0px 10px 20px;
+    position: relative;
+    
+}
+
+.carddestaques h3{
+    font-size: 12px;
+    font-family:'Roboto', sans-serif;
+    margin-left: 10px;
+}
+
+.carddestaques h1{
+    font-size: 28px;
+    font-family:'Roboto', sans-serif;
+    padding: 10px 0px 10px 40px;
+    font-weight: bold;
+}
+
+.carddestaques h4{
+    font-size: 10px;
+    font-family:'Roboto', sans-serif;
+    padding: 0px 0px 10px 80px;
+       
+}
+
+.carddestaques a{
+    margin-left: 55px;
+    background-color: #0C14D4;
+    color: white;
+    text-decoration: none;
+    padding: 8px 20px 8px;
+    border-radius: 20px;
+    justify-content: flex-end;
+    font-family:'Roboto', sans-serif; 
+}
+
+
+
+
+.content-destaques{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 25px;
+}
+
+
+
+.container-grid {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 980px;
+    margin: auto;
+/*
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+*/
+}
+
+.posicao-texto{
+    justify-content: flex-end;
+}
+
+.banner-icon{
+    display: flex;
+    justify-content: center;
+}
+
+.footer{
+    background-color: blue;
+}
+
+.rodape{
+    background-color: #960a0a;
+    padding: 16px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.links{
+    color: #0C14D4;
+}
+
+.links h2{
+    font-size: 24px;
+}
+
+.links a{
+    color: aqua;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.links-footer{
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+}
+
+.sociais input [type="email"] ::placeholder{
+    color:#960a0a;
+    font-weight: bold;
+}
+
+.botao-cadastrar{
+    width: 156px;
+    color:#960a0a;
+    background-color: aqua;
+    font-size: 20px;
+}
+
+
+
+
+
+/* Responsividade !!ERRO!!
+@media screen and (max-widt: 1200px) {
+    .container-grid{
+        width: 90%;
+    }
+    ,menu a{
+        font-size: 16px;
+    }
+
+    .barras{
+        width: 30px;
+        display: none;
+        display: inline-block;
+    }
+
+
+    .logo{
+        width: 20px;
+    }
+    
+}
+
+@media screen and (max-widt: 768px) {
+    h1{
+        color: red;
+    }
+}*/
