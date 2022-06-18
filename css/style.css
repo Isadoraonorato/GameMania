@@ -67,6 +67,40 @@
     align-items: stretch;
 }
 
+/* NÃO DEU CERTO
+@media screen and (max-width: 768px){
+    h1{
+        color: aqua;
+    }
+
+    .barras{
+        width: 30px;
+        display: inline-block;        
+    }
+
+    .menu{
+        display: none;
+        flex-direction: column;
+        width: 200px;
+        position: absolute;
+        top: 0;
+        right: 60;
+        background-color: #0C14D4;
+    }
+
+    .menu a{
+        text-align: center;
+        padding: 15px;
+    }
+
+    .menu-ativo{
+        display: flex;
+    }
+}
+
+*/
+
+
 
 .menu{
     background-color: #0C14D4;   
