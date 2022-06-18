@@ -85,7 +85,7 @@
     display: inline;
     display: inline-block;
     color: #ffff;
-    font-size: 20px;
+    font-size: 28px;
     text-transform: uppercase; /*Maiúsculo*/
     font-family:'Roboto', sans-serif;
     margin: 10px 100px 10px;
@@ -156,12 +156,13 @@
 .secao-destaques .container{
     display: flex;
     justify-content: space-between;
+    
 }
 
 .bloco-destaques h2{
     margin-top: 10px;
     margin-bottom: 50px;
-    font-size: 25px;
+    font-size: 28px;
     text-align: center;
     text-transform: uppercase;
     color: #0C14D4;
@@ -261,48 +262,118 @@
     justify-content: center;
 }
 
-.footer{
-    background-color: blue;
+footer{
+    background-color: #000000;
 }
-
 .rodape{
-    background-color: #960a0a;
-    padding: 16px 0;
-    display: flex;
+    background-color: #0000;
     justify-content: space-between;
+    display: flex;
+    padding-top: 30px;
 }
 
 .links{
-    color: #0C14D4;
+    justify-content: space-evenly;
+    
 }
 
 .links h2{
+    color: #0C14D4;
     font-size: 24px;
-}
-
-.links a{
-    color: aqua;
-    text-decoration: none;
-    font-size: 14px;
-}
-
-.links-footer{
-    display: flex;
-    justify-content: space-between;
-    width: 200px;
-}
-
-.sociais input [type="email"] ::placeholder{
-    color:#960a0a;
+    font-family:'Roboto', sans-serif; 
+    text-transform: uppercase;
     font-weight: bold;
 }
 
-.botao-cadastrar{
-    width: 156px;
-    color:#960a0a;
-    background-color: aqua;
-    font-size: 20px;
+.links li {
+    list-style-type: none;
+    
 }
+
+.links a{
+    color: #fff;
+    list-style-type: none;
+    font-size: 20px;
+    font-family:'Roboto', sans-serif; 
+    text-decoration: none;
+}
+
+.contato h2{
+    color: #0C14D4;
+    font-size: 24px;
+    font-family:'Roboto', sans-serif; 
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.contato li{
+    list-style-type: none;
+    color: #fff;
+    list-style-type: none;
+    font-size: 20px;
+    font-family:'Roboto', sans-serif; 
+    text-decoration: none;
+}
+
+.contato p{
+    color: #fff;
+    list-style-type: none;
+    font-size: 20px;
+    font-family:'Roboto', sans-serif; 
+    text-decoration: none;
+}
+
+.botao-cadastrar{
+    align-self: end;
+    width: 120px;
+    color:#ffffff;
+    background-color:#0C14D4;
+    font-size: 16px;
+    border-radius: 30px;
+    font-family:'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.sociais h2{
+    color: #0C14D4;
+    font-size: 24px;
+    font-family:'Roboto', sans-serif; 
+    text-transform: uppercase;
+    font-weight: bold;
+    
+}
+
+.siga-nos h2{
+    color: #0C14D4;
+    font-size: 18px;
+    font-family:'Roboto', sans-serif; 
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+
+.fale a{
+    color: #0C14D4;
+    text-decoration: none;
+    padding: 3px 30px 3px;
+    border-radius: 30px;
+    align-self: flex-end;
+    border-style: solid;
+    border-color: #0C14D4;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.cadastro{
+    width: 400px;
+   
+
+}
+
+
 
 
 
